@@ -3,7 +3,7 @@ class Switcher
 	public function __construct($switcherName) {
 		$this->switcherName = $switcherName;
 		$this->state = 'Выкл';
-    	}
+    }
 	
 	public function turnOnOff() {
 		if($this->state == 'Выкл'){
